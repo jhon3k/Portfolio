@@ -125,6 +125,12 @@ body {
     font-weight: 400;
 }
 
+/* Pagina dos Projetos */
+
+.tituloProvisorio {
+    padding: 10em 20em;
+}
+
 @media (max-width: 400px) {
     .apresentacao{
         padding: 8%;
