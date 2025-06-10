@@ -1,6 +1,4 @@
 [
-  { "id": "html", "name": "HTML5", "icon": "DiHtml5", "info": "10 cursos, e tempo de uso de 3 anos" },
-  { "id": "css", "name": "CSS3", "icon": "DiCss3", "info": "4 cursos, e tempo de uso de 3 anos" },
   { "id": "git", "name": "Git/GitHub", "icon": "DiGit", "info": "2 cursos, e tempo de uso de 2 anos" },
   { "id": "tailwind", "name": "Tailwind", "icon": "RiTailwindCssFill", "info": "1 curso, e tempo de uso de 1 ano" },
   { "id": "sass", "name": "Sass", "icon": "DiSass", "info": "2 cursos, e tempo de uso de 3 anos" },

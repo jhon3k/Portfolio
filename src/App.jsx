@@ -2,6 +2,11 @@ import { Outlet } from "react-router-dom";
 import "./Styles/components/Nav.sass";
 import "./Styles/components/Footer.sass";
 
+// geralmente no seu App.jsx ou main.jsx
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+
 export default function App() {
     return (
             <div>

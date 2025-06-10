@@ -1,23 +1,23 @@
 [
-    {
-        "id": "",
-        "name": "",
-        "image": "",
-        "description": "",
-        "tecnologies": ""
-    },
-    {
-        "id": "",
-        "name": "",
-        "image": "",
-        "description": "",
-        "tecnologies": ""
-    },
-    {
-        "id": "",
-        "name": "",
-        "image": "",
-        "description": "",
-        "tecnologies": ""
-    }
+  {
+    "id": "alura-books",
+    "name": "AluraBooks",
+    "image": "/img/Logo_AluraBooks.png",
+    "description": "Um projeto de e-commerce de livros feito com React.",
+    "tecnologies": "React, Sass"
+  },
+  {
+    "id": "alura-midi",
+    "name": "AluraMidi",
+    "image": "/img/Logo_AluraMidi.png",
+    "description": "Simulador de instrumentos musicais no navegador.",
+    "tecnologies": "HTML, CSS, JS"
+  },
+  {
+    "id": "monibank",
+    "name": "MoniBank",
+    "image": "/img/Logo_MoniBank.png",
+    "description": "App bancário com autenticação de usuário.",
+    "tecnologies": "React, Node.js"
+  }
 ]
