@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 import BasePage from "./pages/BasePage"
-import Projects from './pages/Projects'
 import App from './App'
 
 import './Styles/main.sass'
+import Projects from './pages/Projects'
 
 const router = createBrowserRouter([
   {

@@ -1,34 +1,35 @@
-import Slider from "react-slick";
-import projetos from "../data/projects.json";
+import projects from "../data/projects.json";
+import { FaEye, FaGithub } from "react-icons/fa";
+
+import "../Styles/components/ProjectsContainer.sass"
 
 const Projects = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
 
   return (
-    <div style={{ maxWidth: "600px", margin: "0 auto", textAlign: "center" }}>
-      <h2>Projetos</h2>
-      <Slider {...settings}>
-        {projetos.map((projeto) => (
-          <div key={projeto.id}>
-            <img
-              src={projeto.image}
-              alt={projeto.name}
-              style={{ width: "100%", borderRadius: "8px" }}
-            />
-            <h3 style={{color: "#fff"}}>{projeto.name}</h3>
-            <p style={{color: "#fff"}}><strong>Descrição:</strong> {projeto.description}</p>
-            <p style={{color: "#fff"}}><strong>Tecnologias:</strong> {projeto.tecnologies}</p>
-          </div>
-        ))}
-      </Slider>
-    </div>
-  );
-};
+    <section className="projects-conteiner">
+      <h1>Projetos</h1>
+      <div className="projects-grid">
+        {projects.map((project) => {
+          return (
+            <div className="project-card" id={project.id} key={project.id}>
+              <h3>{project.name}</h3>
+              <img src={project.image} alt={project.name} />
+              <div>
+                <a href={project.github} target="_brank">
+                  <FaGithub />
+                </a>
+                <a href={project.site} target="_brank" >
+                  <FaEye />
+                </a>
+              </div>
+              <p>{project.description}</p>
+              <p>{project.tecnologies}</p>
+            </div>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
 
 export default Projects;

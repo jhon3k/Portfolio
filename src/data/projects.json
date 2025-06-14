@@ -1,23 +1,137 @@
 [
   {
     "id": "alura-books",
-    "name": "AluraBooks",
+    "name": "Alura Books",
     "image": "/img/Logo_AluraBooks.png",
-    "description": "Um projeto de e-commerce de livros feito com React.",
-    "tecnologies": "React, Sass"
+    "description": "Aplicação React para catálogo de livros, com interface responsiva e navegação simples. Utiliza mapeamento de dados JSON para exibir livros, gerenciamento de estado para filtros e busca, e estilização com CSS/Sass. Exemplo de lista dinâmica com React e manipulação de componentes.",
+    "tecnologies": "React, Sass",
+    "site": "https://alura-books-atualizado.vercel.app/",
+    "github": "https://github.com/jhon3k/Alura-books"
   },
   {
     "id": "alura-midi",
-    "name": "AluraMidi",
+    "name": "Alura Midi",
     "image": "/img/Logo_AluraMidi.png",
-    "description": "Simulador de instrumentos musicais no navegador.",
-    "tecnologies": "HTML, CSS, JS"
+    "description": "Aplicação React que reproduz uma interface de mídia para mixagem de áudio, com botões para tocar e pausar diferentes sons. Utiliza componentes funcionais, manipulação de eventos e áudio nativo do navegador. Exemplo prático de controle de mídia via JavaScript e React.",
+    "tecnologies": "HTML, CSS, JavaScript",
+    "site": "https://alura-midi-pi.vercel.app/",
+    "github": "https://github.com/jhon3k/Alura-MIDI"
   },
   {
     "id": "monibank",
-    "name": "MoniBank",
-    "image": "/img/Logo_MoniBank.png",
-    "description": "App bancário com autenticação de usuário.",
-    "tecnologies": "React, Node.js"
+    "name": "Moni Bank",
+    "image": "/img/Logo_moniBank.png",
+    "description": "Página de formulário em HTML, CSS e JavaScript para abertura de conta bancária. Inclui validação básica de campos, layout responsivo e design clean. Serve como exemplo prático de formulários web e manipulação simples de eventos no front-end.",
+    "tecnologies": "HTML, CSS, JavaScript",
+    "site": "https://moni-bank-zeta.vercel.app/pages/abrir-conta-form.html",
+    "github": "https://github.com/jhon3k/MoniBank"
+  },
+  {
+    "id": "aluroni",
+    "name": "Aluroni Restaurante",
+    "image": "/img/Logo_aluroni.png",
+    "description": "Aplicativo React que simula o site de um restaurante, com exibição de pratos organizados por categorias. Utiliza componentes funcionais, props para passar dados, e estilização responsiva com CSS/Sass. A interface foca na usabilidade, com layout limpo e navegação simples, ideal para demonstração de conceitos de React e design adaptativo.",
+    "tecnologies": "React, TypeScript, Sass, JSON",
+    "site": "https://aluroni-restaurante-eight.vercel.app/",
+    "github": "https://github.com/jhon3k/Aluroni"
+  },
+  {
+    "id": "cinetag",
+    "name": "Cine Tag",
+    "image": "/img/Logo_CineTag.png",
+    "description": "Aplicativo web React que funciona como uma plataforma para busca e organização de filmes. Utiliza consumo de API externa para buscar dados de filmes, exibição dinâmica de listas e detalhes, além de gerenciamento de estado com hooks. O design é responsivo, com navegação intuitiva e componentes reutilizáveis estilizados via CSS Modules ou Sass.",
+    "tecnologies": "React, JavaScript, CSS Modules",
+    "site": "https://cinetag-kohl-ten.vercel.app/",
+    "github": "https://github.com/jhon3k/Cinetag"
+  },
+  {
+    "id": "aluraevent",
+    "name": "Alura Event",
+    "image": "/img/Logo_AluraEvent.png",
+    "description": "Aplicativo web feito com React, que apresenta uma página de evento com cadastro via formulário. Utiliza gerenciamento de estado com React hooks, rotas dinâmicas e estilização modular com CSS/Sass. Inclui manipulação de formulários, validação básica e interação responsiva para dispositivos móveis.",
+    "tecnologies": "React, TypeScript, Sass Modules, JSON",
+    "site": "https://alura-event.vercel.app/",
+    "github": "https://github.com/jhon3k/aluraEvent"
+  },
+  {
+    "id": "aluraspace",
+    "name": "Alura Space",
+    "image": "/img/Logo_AluraSpace.png",
+    "description": "Site interativo que explora imagens do espaço, desenvolvido com React e consumindo APIs externas para mostrar conteúdos dinâmicos. Possui navegação intuitiva e design responsivo, ideal para estudar integração de front-end com dados externos e técnicas de renderização dinâmica.",
+    "tecnologies": "React, JavaScript, Sass Modules",
+    "site": "https://alura-space-sable.vercel.app/",
+    "github": "https://github.com/jhon3k/alura-space"
+  },
+  {
+    "id": "frutaefruto",
+    "name": "Fruta & Fruto",
+    "image": "/img/Logo_Frutaefruto.png",
+    "description": "Blog de receitas com dicas e preparos variados para quem gosta de cozinhar.",
+    "tecnologies": "HTML, CSS",
+    "site": "https://alurinha-psi.vercel.app/",
+    "github": "https://github.com/jhon3k/alurinha"
+  },
+  {
+    "id": "alura-newsletter",
+    "name": "Alura Newsletter",
+    "image": "/img/Logo_aluraNewsletter.png",
+    "description": "Página simples para cadastro em newsletter, com design limpo e foco na experiência do usuário.",
+    "tecnologies": "HTML, Tailwind CSS",
+    "site": "https://alura-newsletter-ecru-alpha.vercel.app/",
+    "github": "https://github.com/jhon3k/Alura-Newsletter"
+  },
+  {
+    "id": "alura-spa",
+    "name": "Alura Spa",
+    "image": "/img/Logo_AluraSpa.png",
+    "description": "Single Page Application que apresenta informações sobre o projeto Tau, com navegação rápida e fluida, feita com React e design responsivo.",
+    "tecnologies": "HTML, Sass",
+    "site": "https://alura-spa-tau.vercel.app/",
+    "github": "https://github.com/jhon3k/Alura-Spa"
+  },
+  {
+    "id": "mochila-de-viagem",
+    "name": "Mochila de Viagem",
+    "image": "/img/Logo_MochiladeViagem.png",
+    "description": "Aplicação web para gerenciamento de itens de viagem, construída com React. Implementa listas dinâmicas e manipulação de estado para adicionar, remover e editar itens. Código modular e uso de eventos para interação do usuário.",
+    "tecnologies": "HTML, CSS, JavaScript",
+    "site": "https://mochila-de-viagem-javascript-na-web.vercel.app/",
+    "github": "https://github.com/jhon3k/mochila-de-viagem-javascript-na-web--armazenando-dados-no-navegador"
+  },
+  {
+    "id": "studies",
+    "name": "Studies",
+    "image": "/img/Logo_Studies.png",
+    "description": "Cronômetro simples e funcional, desenvolvido com React. Utiliza hooks para gerenciar estado e controle de tempo. Design responsivo, fácil de adaptar e com foco em performance para aplicações em qualquer dispositivo.",
+    "tecnologies": "React, typeScript, Sass Modules",
+    "site": "https://studies-sigma.vercel.app/",
+    "github": "https://github.com/jhon3k/Studies"
+  },
+  {
+    "id": "tripulacao",
+    "name": "Tripulação One Piece",
+    "image": "/img/Logo_Tripulacao.png",
+    "description": "Site interativo mostrando a tripulação do anime One Piece, criado com React. Usa componentes reutilizáveis e manipulação dinâmica de dados. Exibe layout responsivo e animações simples para melhor experiência do usuário.",
+    "tecnologies": "React, typeScript, Sass Modules",
+    "site": "https://tripulacao-one-piece.vercel.app/",
+    "github": "https://github.com/jhon3k/Tripulacao-One-Piece"
+  },
+  {
+    "id": "amigo-secreto",
+    "name": "Amigo Secreto",
+    "image": "/img/Logo_amigoSecreto.png",
+    "description": "É uma aplicação web prática e acessível para organizar sorteios de amigo secreto, com interface responsiva, sorteio automático e foco na privacidade, sem exigir cadastro ou login.",
+    "tecnologies": "React, typeScript, CSS",
+    "site": "https://amigo-secreto-eta.vercel.app/",
+    "github": "https://github.com/jhon3k/amigo-secreto"
+  },
+  {
+    "id": "culturama",
+    "name": "Culturama",
+    "image": "/img/Logo_Culturama.png",
+    "description": "Culturama é um site que divulga e organiza eventos culturais no Brasil, facilitando a busca e o anúncio de diferentes tipos de eventos.",
+    "tecnologies": "HTML, CSS",
+    "site": "https://culturama-ashen.vercel.app/",
+    "github": "https://github.com/jhon3k/culturama"
   }
 ]
