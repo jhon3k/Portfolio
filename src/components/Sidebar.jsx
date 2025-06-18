@@ -11,6 +11,9 @@ const Sidebar = () => {
             <img src={avatar} alt="Jhon Feitosa" />
             <div className="title">
             <p>Jhon Arlison da Silva Feitosa</p>
+            </div> 
+            <div className="title">
+            <p>Programador Front-end</p>
             </div>
             <SocialNetworks />  
             <InformationContainer />

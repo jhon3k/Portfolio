@@ -8,6 +8,7 @@
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
+        justify-content: center // Centraliza no desktop e no mobile
 
         .technology-card
             @include mixins.center 
@@ -16,6 +17,11 @@
             border: 1px solid #333
             width: 45%
             border-radius: variables.$card-border-radius
+            transition: transform 0.3s ease, box-shadow 0.3s ease
+
+            &:hover
+                transform: translateY(-5px)
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 
             h3
                 color: variables.$text-color
@@ -24,42 +30,44 @@
             svg
                 font-size: 5rem
 
-        #html
-            svg
-                color: #ec6231
+        // Cores dos ícones
+        #html svg
+            color: #ec6231
         
-        #css
-            svg
-                color: #264de4 
+        #css svg
+            color: #264de4 
 
-        #git
-            svg
-                color: #fa7f72
+        #git svg
+            color: #fa7f72
 
-        #tailwind
-            svg
-                color: #ADD8E6
+        #tailwind svg
+            color: #ADD8E6
                 
-        #sass
-            svg
-                color: #ed30cf
+        #sass svg
+            color: #ed30cf
             
-        #js
-            svg
-                color: #f0db4f
+        #js svg
+            color: #f0db4f
 
-        #Ts
-            svg
-                color: #3498DB
+        #Ts svg
+            color: #3498DB
 
-        #node
-            svg
-                color: #83cd29
+        #node svg
+            color: #83cd29
 
-        #react
-            svg
-                color: #00618a
+        #react svg
+            color: #00618a
 
-        #python
-            svg
-                color: #61dafb
+        #python svg
+            color: #61dafb
+
+// 🔧 Responsividade para telas menores
+@media (max-width: 720px)
+    .tecnologies-container
+        .tecnologias-grid
+            flex-direction: column
+            align-items: center
+
+            .technology-card
+                width: 90% // Ocupar quase toda a tela no mobile
+                padding: 1rem
