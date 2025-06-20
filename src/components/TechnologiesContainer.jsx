@@ -1,7 +1,6 @@
 import '../Styles/components/TechnologiesContainer.sass'
 import tecnologies from '../data/tecnologies.json'
 
-// Importa todos os ícones usados
 import * as DiIcons from "react-icons/di"
 import * as RiIcons from "react-icons/ri"
 import * as SiIcons from "react-icons/si"

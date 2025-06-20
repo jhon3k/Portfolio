@@ -17,7 +17,7 @@ const Sidebar = () => {
             </div>
             <SocialNetworks />  
             <InformationContainer />
-            <a href="../assets/document/curriculo.pdf" download={curriculo} className="btn">
+            <a href={curriculo} download="Curriculo-Jhon-Feitosa.pdf" className="btn">
                 Download corriculo
             </a>
         </aside>

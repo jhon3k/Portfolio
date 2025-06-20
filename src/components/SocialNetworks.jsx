@@ -5,7 +5,7 @@ import '../Styles/components/SocialNetworks.sass'
 const socialNetworks = [
     { name: "linkedin", href: 'https://www.linkedin.com/in/jhon-feitosa/' ,icon: <FaLinkedin /> },
     { name: "github", href: 'https://github.com/jhon3k' ,icon: <FaGithub /> },
-    { name: "instagram", href: 'https://www.instagram.com/jhonsilvafeitosa/' ,icon: <FaInstagram /> }, //Colocar o HREF de Instagram
+    { name: "instagram", href: 'https://www.instagram.com/jhonsilvafeitosa/' ,icon: <FaInstagram /> },
 ] 
 
 const SocialNetworks = () => {

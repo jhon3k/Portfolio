@@ -8,14 +8,14 @@
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
-        justify-content: center // Centraliza no desktop e no mobile
+        justify-content: center
 
         .technology-card
             @include mixins.center 
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
-            width: 45%
+            width: 45%w
             border-radius: variables.$card-border-radius
             transition: transform 0.3s ease, box-shadow 0.3s ease
 
@@ -30,7 +30,6 @@
             svg
                 font-size: 5rem
 
-        // Cores dos ícones
         #html svg
             color: #ec6231
         
@@ -61,7 +60,6 @@
         #python svg
             color: #61dafb
 
-// 🔧 Responsividade para telas menores
 @media (max-width: 720px)
     .tecnologies-container
         .tecnologias-grid
@@ -69,5 +67,5 @@
             align-items: center
 
             .technology-card
-                width: 90% // Ocupar quase toda a tela no mobile
+                width: 90% 
                 padding: 1rem
