@@ -15,16 +15,16 @@ const Projects = () => {
               <h3>{project.name}</h3>
               <img src={project.image} alt={project.name} />
               <div>
-                  <div className='social-btn'>
                   <a href={project.github}  target="_brank">
+                  <div  className='social-btn'>
                     <FaGithub />
-                  </a>
                   </div>
-                  <div className='social-btn'>
+                  </a>
                   <a href={project.site} target="_brank" >
+                  <div className='social-btn'>
                     <FaEye />
-                  </a>
                   </div>
+                  </a>
               </div>
               <p>{project.description}</p>
               <p>{project.tecnologies}</p>
