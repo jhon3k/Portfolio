@@ -6,7 +6,8 @@
     "description": "Aplicação React para catálogo de livros, com interface responsiva e navegação simples. Utiliza mapeamento de dados JSON para exibir livros, gerenciamento de estado para filtros e busca, e estilização com CSS/Sass. Exemplo de lista dinâmica com React e manipulação de componentes.",
     "tecnologies": "React, Sass",
     "site": "https://alura-books-atualizado.vercel.app/",
-    "github": "https://github.com/jhon3k/Alura-books"
+    "github": "https://github.com/jhon3k/Alura-books",
+    "category" : "front-end"
   },
   {
     "id": "alura-midi",
@@ -15,7 +16,8 @@
     "description": "Aplicação React que reproduz uma interface de mídia para mixagem de áudio, com botões para tocar e pausar diferentes sons. Utiliza componentes funcionais, manipulação de eventos e áudio nativo do navegador. Exemplo prático de controle de mídia via JavaScript e React.",
     "tecnologies": "HTML, CSS, JavaScript",
     "site": "https://alura-midi-pi.vercel.app/",
-    "github": "https://github.com/jhon3k/Alura-MIDI"
+    "github": "https://github.com/jhon3k/Alura-MIDI",
+    "category" : "front-end"
   },
   {
     "id": "monibank",
@@ -24,7 +26,8 @@
     "description": "Página de formulário em HTML, CSS e JavaScript para abertura de conta bancária. Inclui validação básica de campos, layout responsivo e design clean. Serve como exemplo prático de formulários web e manipulação simples de eventos no front-end.",
     "tecnologies": "HTML, CSS, JavaScript",
     "site": "https://moni-bank-zeta.vercel.app/pages/abrir-conta-form.html",
-    "github": "https://github.com/jhon3k/MoniBank"
+    "github": "https://github.com/jhon3k/MoniBank",
+    "category" : "front-end"
   },
   {
     "id": "aluroni",
@@ -33,7 +36,8 @@
     "description": "Aplicativo React que simula o site de um restaurante, com exibição de pratos organizados por categorias. Utiliza componentes funcionais, props para passar dados, e estilização responsiva com CSS/Sass. A interface foca na usabilidade, com layout limpo e navegação simples, ideal para demonstração de conceitos de React e design adaptativo.",
     "tecnologies": "React, TypeScript, Sass, JSON",
     "site": "https://aluroni-restaurante-eight.vercel.app/",
-    "github": "https://github.com/jhon3k/Aluroni"
+    "github": "https://github.com/jhon3k/Aluroni",
+    "category" : "front-end"
   },
   {
     "id": "cinetag",
@@ -42,7 +46,8 @@
     "description": "Aplicativo web React que funciona como uma plataforma para busca e organização de filmes. Utiliza consumo de API externa para buscar dados de filmes, exibição dinâmica de listas e detalhes, além de gerenciamento de estado com hooks. O design é responsivo, com navegação intuitiva e componentes reutilizáveis estilizados via CSS Modules ou Sass.",
     "tecnologies": "React, JavaScript, CSS Modules",
     "site": "https://cinetag-kohl-ten.vercel.app/",
-    "github": "https://github.com/jhon3k/Cinetag"
+    "github": "https://github.com/jhon3k/Cinetag",
+    "category" : "front-end"
   },
   {
     "id": "aluraevent",
@@ -51,7 +56,8 @@
     "description": "Aplicativo web feito com React, que apresenta uma página de evento com cadastro via formulário. Utiliza gerenciamento de estado com React hooks, rotas dinâmicas e estilização modular com CSS/Sass. Inclui manipulação de formulários, validação básica e interação responsiva para dispositivos móveis.",
     "tecnologies": "React, TypeScript, Sass Modules, JSON",
     "site": "https://alura-event.vercel.app/",
-    "github": "https://github.com/jhon3k/aluraEvent"
+    "github": "https://github.com/jhon3k/aluraEvent",
+    "category" : "front-end"
   },
   {
     "id": "aluraspace",
@@ -60,7 +66,8 @@
     "description": "Site interativo que explora imagens do espaço, desenvolvido com React e consumindo APIs externas para mostrar conteúdos dinâmicos. Possui navegação intuitiva e design responsivo, ideal para estudar integração de front-end com dados externos e técnicas de renderização dinâmica.",
     "tecnologies": "React, JavaScript, Sass Modules",
     "site": "https://alura-space-sable.vercel.app/",
-    "github": "https://github.com/jhon3k/alura-space"
+    "github": "https://github.com/jhon3k/alura-space",
+    "category" : "front-end"
   },
   {
     "id": "frutaefruto",
@@ -69,7 +76,8 @@
     "description": "Blog de receitas com dicas e preparos variados para quem gosta de cozinhar.",
     "tecnologies": "HTML, CSS",
     "site": "https://alurinha-psi.vercel.app/",
-    "github": "https://github.com/jhon3k/alurinha"
+    "github": "https://github.com/jhon3k/alurinha",
+    "category" : "front-end"
   },
   {
     "id": "alura-newsletter",
@@ -78,7 +86,8 @@
     "description": "Página simples para cadastro em newsletter, com design limpo e foco na experiência do usuário.",
     "tecnologies": "HTML, Tailwind CSS",
     "site": "https://alura-newsletter-ecru-alpha.vercel.app/",
-    "github": "https://github.com/jhon3k/Alura-Newsletter"
+    "github": "https://github.com/jhon3k/Alura-Newsletter",
+    "category" : "front-end"
   },
   {
     "id": "alura-spa",
@@ -87,7 +96,8 @@
     "description": "Single Page Application que apresenta informações sobre o projeto Tau, com navegação rápida e fluida, feita com React e design responsivo.",
     "tecnologies": "HTML, Sass",
     "site": "https://alura-spa-tau.vercel.app/",
-    "github": "https://github.com/jhon3k/Alura-Spa"
+    "github": "https://github.com/jhon3k/Alura-Spa",
+    "category" : "front-end"
   },
   {
     "id": "mochila-de-viagem",
@@ -96,7 +106,8 @@
     "description": "Aplicação web para gerenciamento de itens de viagem, construída com React. Implementa listas dinâmicas e manipulação de estado para adicionar, remover e editar itens. Código modular e uso de eventos para interação do usuário.",
     "tecnologies": "HTML, CSS, JavaScript",
     "site": "https://mochila-de-viagem-javascript-na-web.vercel.app/",
-    "github": "https://github.com/jhon3k/mochila-de-viagem-javascript-na-web--armazenando-dados-no-navegador"
+    "github": "https://github.com/jhon3k/mochila-de-viagem-javascript-na-web--armazenando-dados-no-navegador",
+    "category" : "front-end"
   },
   {
     "id": "studies",
@@ -105,7 +116,8 @@
     "description": "Cronômetro simples e funcional, desenvolvido com React. Utiliza hooks para gerenciar estado e controle de tempo. Design responsivo, fácil de adaptar e com foco em performance para aplicações em qualquer dispositivo.",
     "tecnologies": "React, typeScript, Sass Modules",
     "site": "https://studies-sigma.vercel.app/",
-    "github": "https://github.com/jhon3k/Studies"
+    "github": "https://github.com/jhon3k/Studies",
+    "category" : "front-end"
   },
   {
     "id": "tripulacao",
@@ -114,7 +126,8 @@
     "description": "Site interativo mostrando a tripulação do anime One Piece, criado com React. Usa componentes reutilizáveis e manipulação dinâmica de dados. Exibe layout responsivo e animações simples para melhor experiência do usuário.",
     "tecnologies": "React, typeScript, Sass Modules",
     "site": "https://tripulacao-one-piece.vercel.app/",
-    "github": "https://github.com/jhon3k/Tripulacao-One-Piece"
+    "github": "https://github.com/jhon3k/Tripulacao-One-Piece",
+    "category" : "front-end"
   },
   {
     "id": "amigo-secreto",
@@ -123,7 +136,8 @@
     "description": "É uma aplicação web prática e acessível para organizar sorteios de amigo secreto, com interface responsiva, sorteio automático e foco na privacidade, sem exigir cadastro ou login.",
     "tecnologies": "React, typeScript, CSS",
     "site": "https://amigo-secreto-eta.vercel.app/",
-    "github": "https://github.com/jhon3k/amigo-secreto"
+    "github": "https://github.com/jhon3k/amigo-secreto",
+    "category" : "front-end"
   },
   {
     "id": "culturama",
@@ -132,6 +146,16 @@
     "description": "Culturama é um site que divulga e organiza eventos culturais no Brasil, facilitando a busca e o anúncio de diferentes tipos de eventos.",
     "tecnologies": "HTML, CSS",
     "site": "https://culturama-ashen.vercel.app/",
-    "github": "https://github.com/jhon3k/culturama"
-  }
+    "github": "https://github.com/jhon3k/culturama",
+    "category" : "front-end"
+  },
+  {
+        "id" : "Campeonato-brasileiro2024",
+        "name" : "Campeonato brasileiro 2024",
+        "image" : "/img/Logo_CampeonatoBrasileiro2024.png",
+        "description" : "Campeonato do brasileirão 2024 é uma API que faz um CRUD e valida a tabela do brasileirão 2024",
+        "tecnologies" : "Node.js, Express",
+        "github" : "https://github.com/jhon3k/campeonato-brasileira-API",
+        "category" : "back-end"
+    }
 ]
