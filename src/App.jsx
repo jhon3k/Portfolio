@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import "./Styles/components/Nav.sass";
 import "./Styles/components/Footer.sass";
 
@@ -6,12 +6,12 @@ export default function App() {
     return (
             <div>
                 <nav id="nav">
-                <a href="/">
+                <Link to="/">
                     <h2>Home</h2>
-                </a>
-                <a href="/projects">
+                </Link>
+                <Link to="/projects">
                     <h2>Projetos</h2>
-                </a>
+                </Link>
             </nav>
             <Outlet />
             <footer>
