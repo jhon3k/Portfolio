@@ -1,3 +1,5 @@
+@use '../variables'
+
 .modal-overlay
   position: fixed
   top: 0
@@ -28,6 +30,22 @@
     max-width: 100%
     border-radius: 8px
     margin: 15px 0
+
+  div
+    display: flex
+    gap: 1rem
+    justify-content: center
+
+    a
+      text-decoration: none
+      color: #fff
+      font-size: 1.5rem
+      background: variables.$bg-color
+      padding: .5rem
+      border-radius: .5rem
+
+      &:hover
+        background: variables.$gradient
 
 .close-btn
   position: absolute

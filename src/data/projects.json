@@ -153,7 +153,7 @@
         "id" : "Campeonato-brasileiro2024",
         "name" : "Campeonato brasileiro 2024",
         "image" : "/img/Logo_CampeonatoBrasileiro2024.png",
-        "description" : "Campeonato do brasileirão 2024 é uma API que faz um CRUD e valida a tabela do brasileirão 2024",
+        "description" : "Campeonato do brasileirão 2024 é uma API que faz um CRUD e valida a tabela do brasileirão 2024.",
         "tecnologies" : "Node.js, Express",
         "github" : "https://github.com/jhon3k/campeonato-brasileira-API",
         "category" : "back-end"

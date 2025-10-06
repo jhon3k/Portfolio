@@ -48,27 +48,36 @@ const Projects = () => {
             key={project.id}
           >
             <h3>{project.name}</h3>
-            <img 
-              src={project.image} 
-              alt={project.name} 
-              onClick={() => setSelectedProject(project)}
-              style={{ cursor: "pointer" }}
-            />
-            <div>
-              <a href={project.github} target="_blank" rel="noreferrer">
-                <div className='social-btn'>
-                  <FaGithub />
-                </div>
-              </a>
-              <a href={project.site} target="_blank" rel="noreferrer">
-                <div className='social-btn'>
-                  <FaEye />
-                </div>
-              </a>
+            <div className="image-wrapper" onClick={() => setSelectedProject(project)}>
+              <img src={project.image} alt={project.name} />
+              <div className="hover-card">
+                <FaEye className="eye-icon" />
+                Ver
+              </div>
             </div>
+            <div>
+              <a href={project.github} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+                <div className="social-btn">
+                  <FaGithub />
+                  Github
+                </div>
+              </a>
+              
+              {project.site && (
+                <a href={project.site} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+                <div className="social-btn">
+                  <FaEye />
+                Site
+                </div>
+              </a>
+              )}
+
+            </div>
+            <p><b>Descrição:</b></p>
             <p>{project.description}</p>
+            <p><b>Tecnologias:</b></p>
             <p>{project.tecnologies}</p>
-            <p>Projeto {project.category}</p>
+            <p><b>Projeto: {project.category}</b></p>
           </div>
         ))}
       </div>
@@ -82,8 +91,32 @@ const Projects = () => {
             </span>
             <h2>{selectedProject.name}</h2>
             <img src={selectedProject.image} alt={selectedProject.name} />
+            <div>
+              <div className="modal-links">
+
+                {selectedProject.github && (
+                  <a href={selectedProject.github} target="_blank" rel="noreferrer">
+                    <div className="social-btn">
+                      <FaGithub />
+                      <span>GitHub</span>
+                    </div>
+                  </a>
+                )}
+
+                {selectedProject.site && (
+                  <a href={selectedProject.site} target="_blank" rel="noreferrer">
+                    <div className="social-btn">
+                      <FaEye />
+                      <span>Ver site</span>
+                    </div>
+                  </a>
+                )}
+              </div>
+            </div>
+            <p><b>Descrição:</b></p>
             <p>{selectedProject.description}</p>
-            <p><b>Tecnologias:</b> {selectedProject.tecnologies}</p>
+            <p><b>Tecnologias:</b></p>
+            <p>{selectedProject.tecnologies}</p>
           </div>
         </div>
       )}
