@@ -1,4 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
+import { FaAngleUp } from "react-icons/fa6";
+
 import "./Styles/components/Nav.sass";
 import "./Styles/components/Footer.sass";
 
@@ -15,8 +17,19 @@ export default function App() {
             </nav>
             <Outlet />
             <footer>
-                © Desenvolvido por Jhon Arlison da Silva Feitosa
+                <p>© Desenvolvido por Jhon Arlison da Silva Feitosa</p>
             </footer>
+            <button 
+                className="top-page"
+                onClick={() => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    });
+                }}
+                >
+                    <FaAngleUp />
+            </button>
         </div>
     )
 }
