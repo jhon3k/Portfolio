@@ -2,79 +2,127 @@
 @use '../mixins'
 
 .tecnologies-container
-    text-align: center
-    margin: 2rem auto
+  text-align: center
+  margin: 2rem auto
 
 .tecnologies-grid
-    display: grid
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-    gap: 1rem
-    margin-top: 1.5rem
+  display: grid
+  grid-template-columns: 1fr
+  gap: 1rem
+  margin-top: 1.5rem
 
 .technology-card
-    background: #111
-    color: variables.$text-color
+  width: 100%
+  max-width: 100%
+  background: #111
+  color: variables.$text-color
+  border-radius: 12px
+  padding: 1rem
+  transition: all 0.3s ease
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 1rem
+
+  svg
+    width: 4rem
+    height: 4rem
+    background: #1a1a1a
     border-radius: 12px
-    padding: 1rem
-    transition: all 0.3s ease
-    display: flex
-    align-items: center
-    justify-content: center
-    gap: 1rem
+    padding: 0.5rem
 
-    svg
-        width: 4rem
-        height: 4rem
-
-    &:hover
-        color: variables.$text-color
-        border: 1px solid
-        transform: scale(1.05)
+  &:hover
+    border: 1px solid rgba(99, 102, 241, 0.6)
+    transform: scale(1.05)
 
 .technology-info h3
-    margin-top: 0.5rem
-    font-size: 1.1rem
+  margin-top: 0.5rem
+  font-size: 1.1rem
 
 .toggle-btn
-    margin-top: 1.5rem
-    background-color: rgba(0, 0, 255, 0.3)
-    color: #fff
-    border-radius: 8px
-    padding: 0.7rem 1.5rem
-    font-weight: 600
-    cursor: pointer
-    transition: 0.3s
+  margin-top: 1.5rem
+  background-color: rgba(99, 102, 241, 0.3)
+  color: #fff
+  border-radius: 8px
+  padding: 0.7rem 1.5rem
+  font-weight: 600
+  cursor: pointer
+  transition: 0.3s
 
-    &:hover
-        background-color: #009bb3
+  &:hover
+    background-color: #6366f1
 
-#git svg
-    color: #fa7f72
+@media (min-width: 600px)
+  .tecnologies-grid
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
 
-#tailwind svg
-    color: #ADD8E6
+@media (min-width: 900px)
+  .tecnologies-grid
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+/* 🎨 CORES DOS ÍCONES */
 
-#sass svg
-    color: #ed30cf
+#html5 svg
+  color: #E34F26
+
+#css3 svg
+  color: #1572B6
 
 #js svg
-    color: #f0db4f
+  color: #F7DF1E
 
-#Ts svg
-    color: #3498DB
-
-#node svg
-    color: #83cd29
+#ts svg
+  color: #3178C6
 
 #react svg
-    color: #00618a
+  color: #61DAFB
+
+#mui svg
+  color: #007FFF
+
+#tailwind svg
+  color: #38BDF8
+
+#sass svg
+  color: #CC6699
+
+#contextApi svg
+  color: #764ABC
+
+#recoil svg
+  color: #3578E5
+
+#apiRest svg
+  color: #4CAF50
+
+#node svg
+  color: #68A063
+
+#express svg
+  color: #FFFFFF
 
 #python svg
-    color: #61dafb
+  color: #FFD43B
+
+#flask svg
+  color: #FFFFFF
+
+#pandas svg
+  color: #150458
+
+#sklearn svg
+  color: #F7931E
 
 #mysql svg
-    color: #fff
-    background: #264de4
+  color: #00758F
+
+#git svg
+  color: #F05032
 
 #vue svg
-    color: #32a852
+  color: #42b883
+
+#linux svg
+  color: #fff
+
+#windows svg
+  color: #0078D6

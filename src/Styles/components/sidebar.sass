@@ -3,7 +3,7 @@
 
 #sidebar
     background-color: variables.$bg-color
-    flex: 1 1 0
+    flex: 1 1
     border-radius: variables.$container-border-radius
     display: flex
     align-items: center
@@ -12,9 +12,8 @@
     padding: 3rem 1rem
 
     img
-        height: 20%
+        max-width: 100%
         border-radius: variables.$container-border-radius
-        object-fit: cover
 
     .title
         color: variables.$text-color-secondary
@@ -26,22 +25,3 @@
 
     .btn
         @include mixins.btn
-
-    @media (max-width: 720px)
-        padding: 2rem 0
-
-        img
-            max-width: 70%
-
-        .title
-            font-size: 1rem
-            padding: .6rem 1rem
-
-    @media (max-width: 480px)
-
-        img
-            max-width: 100%
-
-        .title
-            font-size: .9rem
-            padding: .5rem .8rem

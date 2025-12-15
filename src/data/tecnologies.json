@@ -1,13 +1,31 @@
 [
-  { "id": "git", "name": "Git / GitHub", "icon": "DiGit", "info": "Controle de versão e colaboração." },
-  { "id": "tailwind", "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "info": "Estilização rápida e responsiva." },
-  { "id": "sass", "name": "Sass", "icon": "DiSass", "info": "Estilos reutilizáveis e organizados." },
-  { "id": "js", "name": "JavaScript", "icon": "DiJsBadge", "info": "Criação de interfaces dinâmicas e APIs." },
-  { "id": "Ts", "name": "TypeScript", "icon": "SiTypescript", "info": "Tipagem estática para código mais seguro e escalável." },
-  { "id": "node", "name": "Node.js", "icon": "DiNodejsSmall", "info": "Desenvolvimento de APIs e back-end." },
-  { "id": "react", "name": "React", "icon": "DiReact", "info": "Interfaces reativas com componentes e hooks." },
-  { "id": "python", "name": "Python", "icon": "DiPython", "info": "Usado para automação, scripts e desenvolvimento de back-end." },
-  { "id": "mysql", "name": "MySQL", "icon": "SiMysql", "info": "Criação e manipulação de dados em aplicações web." },
-  { "id": "express", "name": "Express", "icon": "SiExpress", "info": "Framework para criação de APIs RESTful." },
-  { "id": "vue", "name": "Vue.js", "icon": "FaVuejs", "info": "Framework progressivo para construção de interfacesj modernas e reativas." }
+  { "id": "html5", "name": "HTML5", "icon": "DiHtml5", "info": "Estruturação semântica de páginas Web." },
+  { "id": "css3", "name": "CSS3", "icon": "DiCss3", "info": "Estilização, layout responsivo e adaptação para diferentes dispositivos." },
+  { "id": "js", "name": "JavaScript", "icon": "DiJsBadge", "info": "Criação de interfaces dinâmicas e integração com APIs." },
+  { "id": "ts", "name": "TypeScript", "icon": "SiTypescript", "info": "Tipagem estática para código mais seguro e escalável." },
+
+  { "id": "react", "name": "React", "icon": "DiReact", "info": "Interfaces reativas utilizando componentes e hooks." },
+  { "id": "mui", "name": "Material UI (MUI)", "icon": "SiMui", "info": "Design System para React com foco em acessibilidade e padronização visual." },
+  { "id": "tailwind", "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "info": "Framework utilitário para estilização rápida e responsiva." },
+  { "id": "sass", "name": "Sass", "icon": "DiSass", "info": "Pré-processador CSS para estilos reutilizáveis e organizados." },
+
+  { "id": "contextApi", "name": "Context API", "icon": "TbApi", "info": "Gerenciamento de estado global em aplicações React." },
+  { "id": "recoil", "name": "Recoil", "icon": "SiRecoil", "info": "Controle de estado complexo em aplicações React." },
+
+  { "id": "apiRest", "name": "APIs REST", "icon": "TbApi", "info": "Comunicação entre front-end e back-end via HTTP." },
+
+  { "id": "node", "name": "Node.js", "icon": "DiNodejsSmall", "info": "Ambiente JavaScript para desenvolvimento de back-end e APIs." },
+  { "id": "express", "name": "Express.js", "icon": "SiExpress", "info": "Framework para criação de APIs RESTful com Node.js." },
+
+  { "id": "python", "name": "Python", "icon": "DiPython", "info": "Desenvolvimento de scripts, back-end e aplicações com foco em dados e IA." },
+  { "id": "flask", "name": "Flask", "icon": "SiFlask", "info": "Framework Web em Python para criação de APIs e aplicações." },
+  { "id": "pandas", "name": "Pandas", "icon": "SiPandas", "info": "Manipulação, limpeza e análise de dados." },
+  { "id": "sklearn", "name": "Scikit-learn", "icon": "SiScikitlearn", "info": "Criação e avaliação de modelos de Machine Learning." },
+
+  { "id": "mysql", "name": "MySQL", "icon": "SiMysql", "info": "Banco de dados relacional para aplicações Web." },
+
+  { "id": "git", "name": "Git / GitHub", "icon": "DiGit", "info": "Controle de versão, colaboração e versionamento de código." },
+
+  { "id": "linux", "name": "Linux", "icon": "DiLinux", "info": "Uso de terminal, gerenciamento de pacotes e ambiente de desenvolvimento." },
+  { "id": "windows", "name": "Windows", "icon": "DiWindows", "info": "Administração do sistema, suporte técnico e desenvolvimento." }
 ]

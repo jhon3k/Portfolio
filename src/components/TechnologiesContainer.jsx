@@ -6,12 +6,14 @@ import * as DiIcons from "react-icons/di"
 import * as RiIcons from "react-icons/ri"
 import * as SiIcons from "react-icons/si"
 import * as FaIcons from "react-icons/fa"
+import * as TbIcons from "react-icons/tb"
 
 const iconMap = {
   ...DiIcons,
   ...RiIcons,
   ...SiIcons,
-  ...FaIcons
+  ...FaIcons,
+  ...TbIcons
 }
 
 const TechnologiesContainer = () => {
