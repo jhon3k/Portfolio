@@ -1,10 +1,11 @@
 [
   { "id": "html5", "name": "HTML5", "icon": "DiHtml5", "info": "Estruturação semântica de páginas Web." },
   { "id": "css3", "name": "CSS3", "icon": "DiCss3", "info": "Estilização, layout responsivo e adaptação para diferentes dispositivos." },
-  { "id": "js", "name": "JavaScript", "icon": "DiJsBadge", "info": "Criação de interfaces dinâmicas e integração com APIs." },
-  { "id": "ts", "name": "TypeScript", "icon": "SiTypescript", "info": "Tipagem estática para código mais seguro e escalável." },
+  { "id": "js", "name": "JavaScript", "icon": "DiJavascript1", "info": "Criação de interfaces dinâmicas e integração com APIs." },
+  { "id": "ts", "name": "TypeScript", "icon": "TbBrandTypescript", "info": "Tipagem estática para código mais seguro e escalável." },
 
   { "id": "react", "name": "React", "icon": "DiReact", "info": "Interfaces reativas utilizando componentes e hooks." },
+  { "id": "vue", "name": "Vue", "icon": "RiVuejsFill", "info": "Interfaces reativas utilizando componentes e hooks." },
   { "id": "mui", "name": "Material UI (MUI)", "icon": "SiMui", "info": "Design System para React com foco em acessibilidade e padronização visual." },
   { "id": "tailwind", "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "info": "Framework utilitário para estilização rápida e responsiva." },
   { "id": "sass", "name": "Sass", "icon": "DiSass", "info": "Pré-processador CSS para estilos reutilizáveis e organizados." },
