@@ -23,6 +23,7 @@
   { "id": "sklearn", "name": "Scikit-learn", "icon": "SiScikitlearn", "info": "Criação e avaliação de modelos de Machine Learning." },
 
   { "id": "mysql", "name": "MySQL", "icon": "SiMysql", "info": "Banco de dados relacional para aplicações Web." },
+  { "id": "docker", "name": "Docker", "icon": "SiDocker", "info": "Criação e execução de aplicações em contêineres de forma padronizada e isolada." },
 
   { "id": "git", "name": "Git / GitHub", "icon": "DiGit", "info": "Controle de versão, colaboração e versionamento de código." },
 
