@@ -8,6 +8,8 @@ import * as SiIcons from "react-icons/si"
 import * as FaIcons from "react-icons/fa"
 import * as TbIcons from "react-icons/tb"
 
+import cppIcon from "../assets/icons/cpp.svg"
+
 const iconMap = {
   ...DiIcons,
   ...RiIcons,
@@ -15,6 +17,11 @@ const iconMap = {
   ...FaIcons,
   ...TbIcons
 }
+
+const svgMap = {
+  "cpp.svg": cppIcon
+}
+
 
 const TechnologiesContainer = () => {
   const [showAll, setShowAll] = useState(false)
@@ -30,7 +37,7 @@ const TechnologiesContainer = () => {
           const Icon = iconMap[tech.icon]
           return (
             <div className="technology-card" id={tech.id} key={tech.id}>
-              {Icon && <Icon />}
+              {tech.svg ? ( <img src={svgMap[tech.svg]} alt={tech.name} className="technology-svg"/>) : ( Icon && <Icon /> )}
               <div className="technology-info">
                 <h3>{tech.name}</h3>
                 <p>{tech.info}</p>

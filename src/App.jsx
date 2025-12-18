@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { FaAngleUp } from "react-icons/fa6";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "./Styles/components/Nav.sass";
 import "./Styles/components/Footer.sass";
@@ -7,6 +8,8 @@ import "./Styles/components/Footer.sass";
 export default function App() {
     return (
             <div>
+                <ScrollToTop />
+
                 <nav id="nav">
                 <Link to="/">
                     <h2>Home</h2>

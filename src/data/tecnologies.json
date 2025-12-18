@@ -26,6 +26,8 @@
   { "id": "mysql", "name": "MySQL", "icon": "SiMysql", "info": "Banco de dados relacional para aplicações Web." },
   { "id": "docker", "name": "Docker", "icon": "SiDocker", "info": "Criação e execução de aplicações em contêineres de forma padronizada e isolada." },
 
+  { "id": "cpp", "name": "C / C++", "svg": "cpp.svg", "info": "Linguagem de baixo nível utilizada para lógica, estruturas de dados e programação de sistemas." },
+
   { "id": "git", "name": "Git / GitHub", "icon": "DiGit", "info": "Controle de versão, colaboração e versionamento de código." },
 
   { "id": "linux", "name": "Linux", "icon": "DiLinux", "info": "Uso de terminal, gerenciamento de pacotes e ambiente de desenvolvimento." },
